@@ -1,0 +1,11 @@
+{
+	"name": "@xpenb/example",
+	"version": "1.0.0",
+	"description": "example project",
+	"type": "module",
+	"scripts": {
+		"lint": "npx eslint --cache .",
+		"lint:fix": "npx eslint --fix --cache .",
+		"format": "npx prettier --write --cache ."
+	}
+}

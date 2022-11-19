@@ -1,2 +1,3 @@
-# template
+# @xpenb/template
+
 Monorepo template

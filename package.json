@@ -1,0 +1,47 @@
+{
+	"name": "@xpenb/template",
+	"version": "1.0.0",
+	"description": "Monorepo template",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xpenb/template.git"
+	},
+	"keywords": [
+		"monorepo",
+		"template",
+		"javascript",
+		"typescript",
+		"turbo",
+		"eslint",
+		"prettier"
+	],
+	"author": "Vladislav Polyakov <me@polrk.com> (https://polrk.com)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/xpenb/template/issues"
+	},
+	"homepage": "https://github.com/xpenb/template#readme",
+	"workspaces": [
+		"apps",
+		"packages",
+		"configs"
+	],
+	"scripts": {
+		"lint": "turbo lint --parallel --continue",
+		"format": "turbo format --parallel"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.43.0",
+		"@typescript-eslint/parser": "^5.43.0",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"globals": "^13.18.0",
+		"husky": "^8.0.2",
+		"lint-staged": "^13.0.3",
+		"prettier": "^2.7.1",
+		"stylelint-config-prettier": "^9.0.4",
+		"turbo": "^1.6.3",
+		"typescript": "^4.9.3"
+	}
+}
